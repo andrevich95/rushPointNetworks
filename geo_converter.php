@@ -9,7 +9,6 @@
 define("A", 6378137.0);
 define("B", 6356752.3142);
 define("UTMScaleFactor",0.9996);
-// var sm_EccSquared = 6.69437999013e-03;
 
 /*
 Вход:широту точки в радианах
@@ -124,11 +123,6 @@ function MapXYToLatLon ($x, $y, $zone, $southhemi){
     $longitude= $lambda0 + $x1frac * $x + $x3frac * $x3poly * pow ($x, 3.0) + $x5frac * $x5poly * pow ($x, 5.0) + $x7frac * $x7poly * pow ($x, 7.0);
             
     return array('latitude' => rad2deg($latitude), 'longitude' => rad2deg($longitude) );
-    }
-
-$coord = MapLatLonToXY(deg2rad(-10),deg2rad(50));
-var_dump($coord);
-echo '<hr>';
-var_dump(MapXYToLatLon($coord['x'],$coord['y'],$coord['zone'],$coord['southhemi']));
+}
 
 ?>
