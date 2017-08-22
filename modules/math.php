@@ -39,4 +39,5 @@ function get_rush_point($dist,$points){
 	}
 }
 
+
 ?>

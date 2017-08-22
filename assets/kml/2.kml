@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Test.kml</name>
+	<open>1</open>
+	<Folder>
+		<name>Clutch</name>
+		<open>1</open>
+		<Folder>
+			<name>Путь Джедая</name>
+			<open>1</open>
+			<Placemark>
+				<name>Муфта3</name>
+				<LookAt>
+					<longitude>38.36949062064893</longitude>
+					<latitude>48.14339923099489</latitude>
+					<altitude>0</altitude>
+					<heading>0.2120426714494034</heading>
+					<tilt>19.10132593872686</tilt>
+					<range>418.5108682966188</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.36965947640824,48.14370623913348,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Муфта2</name>
+				<LookAt>
+					<longitude>38.36180225272772</longitude>
+					<latitude>48.14380189393359</latitude>
+					<altitude>0</altitude>
+					<heading>0.2055853416185405</heading>
+					<tilt>19.09529481079889</tilt>
+					<range>528.3947089668367</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.36024327704371,48.14321172457917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Муфта1</name>
+				<LookAt>
+					<longitude>38.36016155440954</longitude>
+					<latitude>48.14942642825964</latitude>
+					<altitude>0</altitude>
+					<heading>0.2043624092642297</heading>
+					<tilt>19.09311250056211</tilt>
+					<range>256.1687726573217</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>38.35933084875371,48.14966125134368,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Path</name>
+		<open>1</open>
+		<Folder>
+			<name>Путь Джедая</name>
+			<open>1</open>
+			<Placemark>
+				<name>Путь джедая</name>
+				<LookAt>
+					<longitude>38.36431000750718</longitude>
+					<latitude>48.14817895691369</latitude>
+					<altitude>0</altitude>
+					<heading>0.207198111696442</heading>
+					<tilt>13.648866020413</tilt>
+					<range>1464.215239582642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						38.35933181366286,48.14966455228242,0 38.35988009820895,48.14566336752806,0 38.36023670387866,48.14320633198403,0 38.36307678669179,48.14334028550116,0 38.36640936964552,48.14351180841545,0 38.36965800300783,48.14371027019359,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
