@@ -57,9 +57,9 @@ function FootpointLatitude ($y){
 */
 function MapLatLonToXY ($phi, $lambda){
 	if($phi<0)
-		$southhemi = TRUE;
+		$southhemi = true;
 	else
-		$southhemi =FALSE;
+		$southhemi = false;
 	$zone = floor (($lambda + 180.0) / 6) + 1;
 	$lambda0=UTMCentralMeridian ($zone);
 

@@ -1,6 +1,6 @@
 <?php
-include 'geo_converter.php';
-include 'math.php';
+require 'geo_converter.php';
+require 'math.php';
 
 function parse_kml($file){
 	libxml_use_internal_errors(true);
@@ -9,9 +9,7 @@ function parse_kml($file){
 
 	if ($xml === false) {
     	echo "Failed loading XML: ";
-    	foreach(libxml_get_errors() as $error) {
-        	echo "<br>", $error->message;
-    	}
+    	return false;
 	}
 	else{
 		$project = strval($xml->Document->name);
@@ -187,5 +185,4 @@ function find_clutch($clutches,$points){
 	return $points;
 }
 */
-
 ?>

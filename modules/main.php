@@ -1,5 +1,5 @@
-<?php require './modules/includes/header.php';?>
-<div class="jumbotron">	
+<?php require_once './modules/includes/header.php';?>
+<div class="container">
 <?php
 	if(isset($_GET['mod']))
 	{
@@ -8,14 +8,19 @@
 		case 'add':
 			include './modules/add/index.php';
 			break;
-		case 'add':
-			include './modules/articles/index.php';
+		case 'view':
+			include './modules/view/index.php';
 			break;
-		case 'gallery':
-			include './modules/gallery/index.php';
+		case 'calculate':
+			include './modules/calculate/index.php';
 			break;
-		case 'contacts':
-			include './modules/contacts/index.php';
+		case 'edit':
+			include './modules/edit/index.php';
+			break;
+		case 'logout':
+			unset($_SESSION['user_id']);
+			session_destroy();
+			header('Location: index.php');
 			break;
 		default:
 			include './modules/main/index.php';
@@ -24,4 +29,5 @@
 	}
 ?>
 </div>
-<?php require './modules/includes/footer.php';?>
+
+<?php require_once './modules/includes/footer.php';?>

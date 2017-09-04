@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Test.kml</name>
+	<name>Тест.kml</name>
 	<open>1</open>
 	<Folder>
 		<name>Clutch</name>
 		<open>1</open>
 		<Folder>
-			<name>Путь Джедая</name>
+			<name>Гарри Поттер</name>
 			<open>1</open>
 			<Placemark>
-				<name>Муфта зеленая</name>
+				<name>Муфта красная</name>
 				<LookAt>
 					<longitude>38.36949062064893</longitude>
 					<latitude>48.14339923099489</latitude>
@@ -27,7 +27,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Муфта белая</name>
+				<name>Муфта зеленая</name>
 				<LookAt>
 					<longitude>38.36180225272772</longitude>
 					<latitude>48.14380189393359</latitude>
@@ -44,7 +44,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Муфта красная</name>
+				<name>Муфта белая</name>
 				<LookAt>
 					<longitude>38.36016155440954</longitude>
 					<latitude>48.14942642825964</latitude>
@@ -66,10 +66,10 @@
 		<name>Path</name>
 		<open>1</open>
 		<Folder>
-			<name>Путь Джедая</name>
+			<name>Гарри Поттер</name>
 			<open>1</open>
 			<Placemark>
-				<name>Путь джедая</name>
+				<name>Гарри Поттер</name>
 				<LookAt>
 					<longitude>38.36431000750718</longitude>
 					<latitude>48.14817895691369</latitude>

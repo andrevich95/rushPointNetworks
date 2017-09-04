@@ -1,12 +1,9 @@
 <?php
-echo 'login.php';
-session_start();
-$_SESSION['user_id']='123';
-var_dump($_SESSION);
-header('Location: index.php');
+if(!isset($_SESSION['user_id']) and isset($_POST['user'])){
 
-echo '<hr>';
-var_dump($_POST);
+	$_SESSION['user_id']=$_POST['user'];
+	header('Location: index.php');
+}
 ?>
 <div class="container">
 <div class="jumbotron">
