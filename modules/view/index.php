@@ -10,12 +10,9 @@ if($result->num_rows>0){
 		$project[$row['id']] =$row['name'];
 	}
 }
-if(isset($_POST)){
-
-}
 ?>
 	
-		<form class="form-horizontal" action="" method="post">
+		<form class="form-horizontal" action="./modules/show.php" method="post" id="view_form">
 		<div class="form-group">
 			<label for="project">Проект</label>
 			<select name="project" class="form-control" id="project">
@@ -33,7 +30,8 @@ if(isset($_POST)){
 			<label for="clutch">Муфта</label>
 			<select name="clutch" class="form-control" id="clutch">
 			 </select>
-			 <button type="submit" class="btn btn-primary">Отправить</button> 
+			 <br>
+			 <button type="submit" class="btn btn-primary">Отобразить на карте</button> 
 			</div>
 			<div id="map">
 				

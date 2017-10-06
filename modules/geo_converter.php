@@ -90,7 +90,7 @@ function MapLatLonToXY ($phi, $lambda){
  Вход: восток точки, в метрах, северный пункт, в метрах. Долгота центрального меридиана для использования в радианах
  Выход: 2-элемент, содержащий широту и долготу в радианах.
 */
-function MapXYToLatLon ($x, $y, $zone, $southhemi){
+function MapXYToLatLon ($x, $y, $zone, $southhemi=false){
 	$lambda0 = UTMCentralMeridian ($zone);
 	$x = ($x - 500000.0)/UTMScaleFactor;
 	if ($southhemi) $y = $y - 10000000.0;        

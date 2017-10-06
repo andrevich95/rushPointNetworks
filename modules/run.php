@@ -1,5 +1,5 @@
 <?php
-require_once './server/server_info.php';
+require_once '../server/server_info.php';
 
 $conn = new mysqli($servername,$username,$password,$DB);
 if(isset($_POST['project_id']) and !isset($_POST['route_id'])){
